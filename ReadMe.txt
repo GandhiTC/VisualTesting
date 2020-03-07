@@ -1,7 +1,7 @@
 This project is based on visual comparisons and automations.
 
 
-There are examples 3 different types of testing/tools.
+There are examples of 3 different types of testing/tools.
 
 	- Applitools
 		- A test to show the very basics of testing with Applitools
