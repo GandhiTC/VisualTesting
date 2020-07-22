@@ -45,6 +45,7 @@ public class SikulixTest
 		setupLogger();
 		clickWindowsStartAndOpenMSWord();
 		typeTextInWordAndSave();
+		System.exit(0);
 	}
 	
 	
