@@ -78,12 +78,12 @@ public class ApplitoolsTest
 	public void basicTest()
 	{
 		// Set AUT's name, test name and viewport size (width X height)
-		// We have set it to 800 x 600 to accommodate various screens. Feel free to
-		// change it.
+		// We have set it to 800 x 600 to accommodate various screens.
+		// Feel free to change it.
 		eyes.open(driver, "Demo App", "Smoke Test", new RectangleSize(800, 800));
 
 		// Navigate the browser to the "ACME" demo app.
-//		driver.get("https://demo.applitools.com");
+		driver.get("https://demo.applitools.com");
 
 		// To see visual bugs after the first run, use the commented line below instead.
 		driver.get("https://demo.applitools.com/index_v2.html");
@@ -108,8 +108,7 @@ public class ApplitoolsTest
 		// Close the browser.
 		driver.quit();
 
-		// If the test was aborted before eyes.close was called, ends the test as
-		// aborted.
+		// If the test was aborted before eyes.close was called, ends the test as aborted.
 		eyes.abortIfNotClosed();
 
 		// Wait and collect all test results
