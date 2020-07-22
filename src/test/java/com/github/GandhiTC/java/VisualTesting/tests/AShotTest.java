@@ -25,7 +25,7 @@ import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 
 public class AShotTest
 {
-	String			savedImage	= System.getProperty("user.dir") + "\\src\\test\\resources\\ashot_images\\ElementScreenshot.png";
+	String			savedImage		= System.getProperty("user.dir") + "\\src\\test\\resources\\ashot_images\\ElementScreenshot.png";
 	WebDriver 		driver;
 	WebElement 		logoImage;
 	Screenshot		screenshot;
